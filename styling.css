@@ -1,0 +1,114 @@
+.text {
+  padding-left: 50px;
+  font-size: 12px;
+  font-family: arial;
+}
+
+body {
+    background-color: #fafafa !important
+}
+
+table {
+  width: 100%;
+  background-color: #f8fafc;
+  padding: 0px;
+  font: arial;
+  font-size: 12px;
+  table-layout: fixed;
+}
+
+table:hover {
+    background-color: #eaeaea;
+}
+
+th:nth-child(1), td:nth-child(1) { 
+    width: 20%; /* 20% of table width */
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: "Oswald", sans-serif !important;
+    font-weight: bold !important;
+    padding: 50px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+
+button {
+  border: none;
+  color: white;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 15px !important;
+  margin-right: 25px !important;
+}
+
+.btn-taylor {
+    background-color: #e36dd3;
+}
+
+.btn-taylor:hover {
+  background-color: #e889db;
+  cursor: pointer;
+}
+
+.btn-khalid {
+    background-color: #e59419;
+}
+
+.btn-khalid:hover {
+    background-color: #eeb846;
+    cursor: pointer;
+}
+
+.btn-noah {
+    background-color: #92915d;
+}
+
+.btn-noah:hover {
+    background-color: #c3c7b0;
+    cursor: pointer;
+}
+
+.btn-beyonce {
+    background-color: #29605f;
+}
+
+.btn-beyonce:hover {
+    background-color: #83a796;
+    cursor: pointer;
+}
+
+span {
+  font-weight: lighter;
+}
+
+.title {
+  padding-left: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  font-size: x-large;
+}
+
+.image-container {
+  width: 100px; /* Set the desired container width */
+  height: 100px; /* Set the desired container height */
+  overflow: hidden; /* Hide the overflow of the image */
+  position: relative; /* Establish a containing block for positioning */
+}
+
+.image-container img {
+  position: absolute; /* Position the image inside the container */
+  top: 50%; /* Move the image to the center vertically */
+  left: 50%; /* Move the image to the center horizontally */
+  transform: translate(-50%, -50%); /* Offset by 50% to center it */
+  width: 200px; /* Image is larger than the container */
+  height: auto; /* Maintain aspect ratio */
+}

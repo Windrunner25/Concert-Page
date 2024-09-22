@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styling.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="padding">
+      <!-- Header with title and subtitle -->
+      <h1>Ticket ReMaster</h1>
+      <h3>Upcoming Events</h3>
+      <hr />
+      <!-- First event table -->
+      <table class="all-edit">
+        <tr>
+          <!-- Use row span to make the image span several rows -->
+          <td rowspan="3"> 
+            <div class="image-container">
+              <img src="./images/taylor.jpg" alt="Image of Taylor Swift" />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="title">Taylor Swift <span> - The Eras Tour</span></td>
+        </tr>
+        <tr>
+          <td class="all-edit text">
+            <button class="btn-taylor" onclick="alert('Ticket Price: $500')">
+              September 20
+            </button>
+            Pop / Country
+          </td>
+        </tr>
+      </table>
+      <hr />
+      <!-- Line break then second event table -->
+      <table>
+        <tr>
+          <!-- Use row span to make the image span several rows -->
+          <td rowspan="3">
+            <div class="image-container">
+              <img
+                src="./images/khalid.png"
+                alt="Image of Khalid album cover"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="title">Khalid <span>- Free Spirit Tour</span></td>
+        </tr>
+        <tr>
+          <td class="all-edit text">
+            <button class="btn-khalid" onclick="alert('Ticket Price: $200')">
+              September 21
+            </button>
+            R&B / Hip Hop
+          </td>
+        </tr>
+      </table>
+      <hr />
+      <!-- Line break then third event table -->
+      <table>
+        <tr>
+          <!-- Use row span to make the image span several rows -->
+          <td rowspan="3">
+            <div class="image-container">
+              <img src="./images/noahkahan.jpg" alt="Image of Noah Kahan" />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="title">
+            Noah Kahan <span>- We'll All Be Here Forever Tour </span>
+          </td>
+        </tr>
+        <tr>
+          <td class="all-edit text">
+            <button class="btn-noah" onclick="alert('Ticket Price: $350')">
+              September 22
+            </button>
+            Folk Pop
+          </td>
+        </tr>
+      </table>
+      <hr />
+      <!-- Line break then fourth event table -->
+      <table>
+        <tr>
+          <!-- Use row span to make the image span several rows -->
+          <td rowspan="3">
+            <div class="image-container">
+              <img src="./images/beyonce.png" alt="Image of Noah Kahan" />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="title">
+            Beyonce <span>- The Formation World Tour </span>
+          </td>
+        </tr>
+        <tr>
+          <td class="all-edit text">
+            <button class="btn-beyonce" onclick="alert('Ticket Price: $1000')">
+              September 23
+            </button>
+            Pop / Country
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
